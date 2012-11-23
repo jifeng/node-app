@@ -1,0 +1,30 @@
+{
+  "name": "node-app",
+  "version": "0.0.1",
+  "description": "nodejs 项目的代码结构",
+  "keywords": [ "nodejs", "project"],
+  "author": "jifeng <wade428@163.com>",
+  "scripts": {
+    "start": "node dispatch.js",
+    "test": "make test"
+  },
+  "dependencies": {
+    "connect": "2.7.0",
+    "connect-render": "0.2.0",
+    "response-cookie": "0.0.1",
+    "urlrouter": "0.2.3",
+    "response-patch": "0.0.2",
+    "ejs": "0.8.3",
+    "forward": "0.0.1",
+    "connect-mredis": "1.0.8",
+  },
+  "devDependencies": {
+    "should": "*",
+    "mocha": "*",
+    "rewire": "*",
+    "supertest": "*",
+    "jscover": "*"
+  },
+  "main": "dispatch.js",
+  "engines": { "node": "0.8.x" }
+}
